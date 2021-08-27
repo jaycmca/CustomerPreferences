@@ -7,11 +7,13 @@ What we’ll build We will build Customer Preferences RESTFul APIs for a Simple 
 
 1.2 PUT http://localhost:8080/customer/v1/get-customer-preferences/{ID}
 
-**2. Tools and Technologies Used **
+2. Tools and Technologies Used
 Spring Boot - 2.0.5.RELEASE JDK - 11 Spring Framework - 5.0.8 RELEASE Hibernate - 5.2.17.Final JPA Maven - 3.2+ IDE - Eclipse or Spring Tool Suite (STS)
 
 3. Creating and Importing a Project  
-   There are many ways to create a Spring Boot application. The simplest way is to use Spring Initializr at http://start.spring.io/, which is an online Spring Boot application  generator. image
+   There are many ways to create a Spring Boot application. The simplest way is to use Spring Initializr at http://start.spring.io/, which is an online Spring Boot application  generator.
+   ![image](https://user-images.githubusercontent.com/89606757/131081104-48d8963d-edf3-41f4-98c2-2741afcf8180.png)
+
 
 Look at the above diagram, we have specified the following details: Generate: Maven Project Java Version: 11 Spring Boot:2.0.5 Group: customer.preferences Artifact: customerPreferences Name: customerPreferences Description: Rest API for a Customer Preferences management Package Name : com.sample.microservice.get.customer.preferences Packaging: jar (This is the default value) Dependencies: Web, JPA, MySQL, DevTools Once, all the details are entered, click on Generate Project button will generate a spring boot project and downloads it. Next, Unzip the downloaded zip file and import it into your favorite IDE.
 
